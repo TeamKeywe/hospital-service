@@ -62,7 +62,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // (1) hospital-interface 모듈
-    implementation "com.doubleo.grpc:hospital-interface:0.2.0"
+    implementation "com.doubleo.grpc:hospital-interface:0.3.3"
 
     // (2) gRPC 런타임
     implementation "io.grpc:grpc-netty:1.63.0"
